@@ -10,7 +10,7 @@ client.on('message', message => {
   message.reply('Chirp! ^~^');
     }
   else if (message.content === 'Smol Birb, what are you?') {
-  message.reply('oh haiiiii!!! *I'm a Smol Birb, silly :hatching_chick: Don't* mind me ^~^ Cheep!');
+  message.reply("oh haiiiii!!! I'm just a smol birb, silly :hatching_chick: Don't mind me ^~^ Cheep!");
     }
   });
   
