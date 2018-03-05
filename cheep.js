@@ -6,7 +6,7 @@ client.on('ready', () => {
   });
   
 client.on('message', message => {
-  if (message.content === 'Cheep!' || 'cheep!' || 'cheep' || 'Cheep') {
+  if (message.content === 'Cheep!') {
     message.reply('Chirp! ^~^');
     }
   });
