@@ -5,9 +5,9 @@ client.on('ready', () => {
   console.log('I am ready!');
   });
   
-  client.on('message', message => {
-    if (message.content === 'Cheep!' || 'cheep!' || 'cheep' || 'Cheep') {
-      message.reply('Chirp! ^~^');
+client.on('message', message => {
+  if (message.content === 'Cheep!' || 'cheep!' || 'cheep' || 'Cheep') {
+    message.reply('Chirp! ^~^');
     }
   });
   
