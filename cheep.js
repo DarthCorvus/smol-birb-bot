@@ -9,6 +9,9 @@ client.on('message', message => {
   if (message.content === 'Cheep!') {
   message.reply('Chirp! ^~^');
     }
+  else if (message.content === 'Smol Birb, what are you?') {
+  message.reply('oh haiiiii!!! *I'm a Smol Birb, silly :hatching_chick: Don't* mind me ^~^ Cheep!');
+    }
   });
   
 client.login(process.env.BOT_TOKEN);
