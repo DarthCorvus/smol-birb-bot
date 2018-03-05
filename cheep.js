@@ -5,9 +5,9 @@ client.on('ready', () => {
   console.log('I am ready!');
   });
   
-client.on('channel', channel => {
-  if (channel.content === 'Cheep!') {
-    channel.sendMessage('Chirp! ^~^');
+client.on('message', message => {
+  if (message.content === 'Cheep!') {
+  message.reply('Chirp! ^~^');
     }
   });
   
