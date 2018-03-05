@@ -5,8 +5,8 @@ client.on('ready', () => {
   console.log('I am ready!');
   });
   
-client.on('message', message => {
-  if (message.content === 'Cheep!') {
+client.on('channel', channel => {
+  if (channel.content === 'Cheep!') {
     channel.sendMessage('Chirp! ^~^');
     }
   });
