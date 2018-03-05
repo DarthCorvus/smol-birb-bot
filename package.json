@@ -2,12 +2,12 @@
   "name": "Smol Birb Bot",
   "description": "A simple bot used to explore the Discord API.",
   "version": "0.0.0"
+  "scripts": {
+    "start": "node cheep.js"
+    },
   "main": "cheep.js",
   "engines": {
     "node": "8.9.4"
-    },
-  "scripts": {
-    "start": "node cheep.js"
     },
   "dependencies": {
     "discord.js": "12.0.0-dev"
