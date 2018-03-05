@@ -1,1 +1,1 @@
-worker: node cheep.js
+worker node cheep.js
