@@ -1,0 +1,13 @@
+{
+  "name": "Smol Birb Bot",
+  "description": "A simple bot used to explore the Discord API.",
+  "version": "0.0.0",
+  "main": "cheep.js",
+  "scripts": {
+    "start": "node cheep.js"
+    },
+  "dependencies": {
+    "semver": "^5.5.0",
+       "discord.js": "^11.3.2"
+  }
+}

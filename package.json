@@ -1,13 +1,22 @@
 {
-  "name": "Smol Birb Bot",
-  "description": "A simple bot used to explore the Discord API.",
-  "version": "0.0.0",
+  "name": "smol-birb-bot",
+  "version": "1.0.0",
+  "description": "Ish a smol birb.",
   "main": "cheep.js",
   "scripts": {
-    "start": "node cheep.js"
-    },
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarthCorvus/smol-birb-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DarthCorvus/smol-birb-bot/issues"
+  },
+  "homepage": "https://github.com/DarthCorvus/smol-birb-bot#readme",
   "dependencies": {
-    "semver": "^5.5.0",
-       "discord.js": "^11.3.2"
+    "discord.js": "^11.3.2"
   }
 }
