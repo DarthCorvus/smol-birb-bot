@@ -14,7 +14,7 @@ client.on('message', message => {
     message.channel.send("I'm just a smol birb, silly :hatching_chick: Don't mind me ^~^ Cheep!");
     }
   else if (message.content === 'Smol Birb, how flexible are you?') {
-    message.channel.send("Well I can't touch my toes, if that's what you mean >.< Oh, and I can't respond to anything that isn't worded juuuust right, so please be specific! Sorry about that!");
+    message.channel.send("Well I can't touch my toes, if that's what you mean  >.<  Oh, and I can't respond to anything that isn't worded juuuust right, so please be specific! Sorry about that!");
     }
   else if (message.content === 'Who am I?') {
     message.channel.send('You silly goose!'),
