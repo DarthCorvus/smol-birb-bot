@@ -15,6 +15,10 @@ client.on('message', message => {
   else if (message.content === 'Smol Birb, how flexible are you?') {
   message.reply("Well I can't touch my toes, if that's what you mean >.< Oh, and I can't respond to anything that isn't worded juuuust right, so please be specific! Sorry about that!");
     }
+  else if (message.content === 'Who am I?') {
+    message.channel.send('You silly goose!'),
+    message.channel.send('You forgot your own name? Your name is ${member}, silly xD');
+  }
   });
   
 client.login(process.env.BOT_TOKEN);
