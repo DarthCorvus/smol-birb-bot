@@ -26,12 +26,12 @@ client.on('message', message => {
     message.channel.send('You silly goose!'),
     message.channel.send('You forgot your own name?'),
     message.channel.send('Your name is ${member}, silly xD');
+  }
   else if (message.content === 'Smol Birb, join my channel') {
     voiceChannel.join()
       .then(connection => {
         const dispatcher = connection.playFile('339326__inspectorj__bird-whistling-a.wav');
       })
-  }
   });
   
 client.login(process.env.BOT_TOKEN);
