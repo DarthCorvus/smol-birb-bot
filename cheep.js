@@ -17,7 +17,8 @@ client.on('message', message => {
     }
   else if (message.content === 'Who am I?') {
     message.channel.send('You silly goose!'),
-    message.channel.send('You forgot your own name? Your name is ${member}, silly xD');
+    message.channel.send('You forgot your own name?'),
+    message.channel.send('Your name is ${member}, silly xD');
   }
   });
   
