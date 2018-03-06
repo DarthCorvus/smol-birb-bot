@@ -7,7 +7,7 @@ client.on('ready', () => {
   
 client.on('message', message => {
   if (message.content === 'Cheep!') {
-  message.channel.sendMessage('Chirp! ^~^');
+  message.channel.send('Chirp! ^~^');
     }
   else if (message.content === 'Smol Birb, what are you?') {
   message.reply("oh haiiiii!!! I'm just a smol birb, silly :hatching_chick: Don't mind me ^~^ Cheep!");
