@@ -31,7 +31,7 @@ client.on('message', message => {
     voiceChannel.join()
       .then(connection => {
         const dispatcher = connection.playFile('339326__inspectorj__bird-whistling-a.wav');
-      }
+      })
             })
   });
   
