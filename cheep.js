@@ -9,6 +9,9 @@ client.on('message', message => {
   if (message.content === 'Cheep!') {
   message.channel.send('Chirp! ^~^');
     }
+  else if (message.content === 'Hey Smol Birb! Ready to show the world what you can do now?') {
+    message.channel.send('Uh-huh! You betcha, Corvus!');
+    }
   else if (message.content === 'Smol Birb, what are you?') {
     message.channel.send('oh haiiiii ${user}!!!'),
     message.channel.send("I'm just a smol birb, silly :hatching_chick: Don't mind me ^~^ Cheep!");
