@@ -16,7 +16,7 @@ client.on('message', message => {
     message.channel.send("Ohboyohboyohboy! I can't wait!");
     }
   else if (message.content === 'Smol Birb, what are you?') {
-    message.channel.send('oh haiiiii ${user}!!!'),
+    message.channel.send('Oh haiiiii \message.author\!!!'),
     message.channel.send("I'm just a smol birb, silly :hatching_chick: Don't mind me ^~^ Cheep!");
     }
   else if (message.content === 'Smol Birb, how flexible are you?') {
