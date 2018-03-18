@@ -12,8 +12,7 @@ client.on('message', message => {
   
   if (!message.content.startsWith(Prefix)) return;
   
-  var (args) = message.content.substring(Prefix.length).split(" ");
-  
+  var (args) = message.content.substring(Prefix.length).split(" ");  
   switch (args[0].toLowerCase()) {
     case "cheep!":
         message.channel.sendMessage("Chirp! ^~^");
