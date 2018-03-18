@@ -33,7 +33,7 @@ bot.on('message', message => {
     case "info":
         message.channel.send("Oh haiiiii!!! I'm Smol Birb, your local chirper and cheeper! I can't do much right now, but Corvus and I are hard at work trying to fix that! If you have any suggestions, please keep them to yourself! xD Lol jk we would love to hear your input. Feel free to DM @DarthCorvus#7351 with any suggestions for making me better. Thanks! ^~^");
         break;
-    case "cheep of the day":
+    case "pins":
         message.channel.send(penny[Math.floor(Math.random() * penny.length)]);
         break;
     default:
