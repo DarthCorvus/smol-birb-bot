@@ -10,6 +10,11 @@ bot.on('message', message => {
   
   if (message.author.equals(bot.user)) return;
   
+  if (message.content === "^~^") {
+      message.channel.sendMessage("^~^");
+      return;
+  }
+  
   if (!message.content.startsWith(Prefix)) return;
   
   var args = message.content.substring(Prefix.length).split(" ");
@@ -23,6 +28,7 @@ bot.on('message', message => {
         break;
     default:
         message.channel.sendMessage("Ummm... >.< I'm sorry! I don't know that one! Do you, uh... Want to try a different one?");
+        break;
   }
   
 });
