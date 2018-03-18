@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const Prefix = "Hey Birb ";
+const Prefix = "^~^ ";
 
 client.on('ready', () => {
   console.log('I am ready!');
