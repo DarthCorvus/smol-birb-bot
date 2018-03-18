@@ -2,11 +2,11 @@ const Discord = require('discord.js');
 const bot = new Discord.Client();
 const Prefix = "^~^ ";
 
-client.on('ready', () => {
+bot.on('ready', () => {
   console.log('I am ready!');
   });
   
-client.on('message', message => {
+bot.on('message', message => {
   
   if (message.author.equals(bot.user)) return;
   
@@ -24,5 +24,4 @@ client.on('message', message => {
   }
   
 });
-  
-client.login(process.env.BOT_TOKEN);
+bot.login(process.env.BOT_TOKEN);
