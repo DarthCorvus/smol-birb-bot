@@ -61,11 +61,6 @@ bot.on('message', message => {
   
   if (message.author.equals(bot.user)) return;
   
-  if (message.content === "^~^") {
-      message.channel.send("^~^");
-      return;
-  }
-  
   if (!message.content.startsWith(Prefix)) return;
   
   var args = message.content.substring(Prefix.length).split(" ");
