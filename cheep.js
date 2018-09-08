@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-const Prefix = "^~^ ";
+const Prefix = "Cheep!"||"cheep!";
 
 var penny = [
   "Dad daddio diddly dab dabs while dading!",
